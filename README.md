@@ -67,6 +67,15 @@ Elixir’s functional design and Ecto transactions are used to ensure data consi
 - Docker & Docker Compose
 - PostgreSQL (if running without Docker)
 
+#### Windows notes
+
+If you're on Windows, you can either:
+
+- Use WSL2 (recommended) and follow the Linux instructions above.
+- Or install native Windows versions of Elixir/Erlang and PostgreSQL, and run commands in PowerShell.
+
+If you choose WSL2, make sure Docker Desktop is configured to use the WSL2 backend.
+
 ### Setup
 
 ```bash
